@@ -1,0 +1,16 @@
+{
+  "name": "amrs",
+  "version": "0.0.0",
+  "description": "AngularJS comunicando RESTful e SOAP com Java",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Lossurdo",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.2.3",
+    "bootstrap": "~3.3.6",
+    "angular": "~1.5.5"
+  }
+}
