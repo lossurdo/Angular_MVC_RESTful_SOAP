@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <definitions 
+ xmlns="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="SeriadoRNService" targetNamespace="http://rn.amrs.lossurdo.com/" xmlns:tns="http://rn.amrs.lossurdo.com/" 
+ >
+    <message name="consultar"/>
+    <message name="consultarResponse"/>
+    <message name="excluir"/>
+    <message name="excluirResponse"/>
+    <message name="salvar"/>
+    <message name="salvarResponse"/>
+    <message name="alterar"/>
+    <message name="alterarResponse"/>
+    <message name="pesquisar"/>
+    <message name="pesquisarResponse"/>
+    <message name="pesquisar"/>
+    <message name="pesquisarResponse"/>
+    <portType name="SeriadoRN">
+        <operation name="consultar">
+            <input message="tns:consultar"/>
+            <output message="tns:consultarResponse"/>
+        </operation>
+        <operation name="excluir">
+            <input message="tns:excluir"/>
+            <output message="tns:excluirResponse"/>
+        </operation>
+        <operation name="salvar">
+            <input message="tns:salvar"/>
+            <output message="tns:salvarResponse"/>
+        </operation>
+        <operation name="alterar">
+            <input message="tns:alterar"/>
+            <output message="tns:alterarResponse"/>
+        </operation>
+        <operation name="pesquisar">
+            <input message="tns:pesquisar"/>
+            <output message="tns:pesquisarResponse"/>
+        </operation>
+        <operation name="pesquisar">
+            <input message="tns:pesquisar"/>
+            <output message="tns:pesquisarResponse"/>
+        </operation>
+    </portType>
+    <binding name="SeriadoRNPortBinding" type="tns:SeriadoRN">
+        <operation name="consultar">
+            <input/>
+            <output/>
+        </operation>
+        <operation name="excluir">
+            <input/>
+            <output/>
+        </operation>
+        <operation name="salvar">
+            <input/>
+            <output/>
+        </operation>
+        <operation name="alterar">
+            <input/>
+            <output/>
+        </operation>
+        <operation name="pesquisar">
+            <input/>
+            <output/>
+        </operation>
+        <operation name="pesquisar">
+            <input/>
+            <output/>
+        </operation>
+    </binding>
+    <service name="SeriadoRNService">
+        <port name="SeriadoRNPort" binding="tns:SeriadoRNPortBinding"/>
+    </service>
+</definitions>

@@ -13,7 +13,7 @@ public interface CrudGenerico<T> {
     T alterar(T bean);    
     
     // métodos válidos para as pesquisas REST
-    List<T> pesquisar(T bean);    
+    List<T> pesquisar(T bean);
     List<T> pesquisar(String valor);
     
 }

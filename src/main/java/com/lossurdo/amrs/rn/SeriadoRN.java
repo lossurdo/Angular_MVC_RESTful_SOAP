@@ -4,13 +4,11 @@ import com.lossurdo.amrs.bd.SeriadoBD;
 import com.lossurdo.amrs.bean.Seriado;
 import com.lossurdo.amrs.crud.CrudGenericoRN;
 import java.util.List;
-import javax.jws.WebService;
 
 /**
  *
  * @author lossurdo
  */
-@WebService
 public class SeriadoRN extends CrudGenericoRN<Seriado> {
 
     private final SeriadoBD seriadoBD;
